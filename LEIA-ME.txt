@@ -1,0 +1,28 @@
+CENTRAL DE VÍDEOS IA — SITE PARA GITHUB PAGES
+
+INSTRUÇÕES RÁPIDAS
+
+1. ANTES DE PUBLICAR, abra os arquivos index.html, termos.html e privacidade.html em um editor de texto.
+   Substitua TODAS as ocorrências de CONTATO@EXEMPLO.COM por um e-mail real que você controla e aceita tornar público.
+   Revise os textos para que descrevam exatamente o funcionamento da sua aplicação.
+2. No GitHub, crie um repositório PÚBLICO chamado central-videos-ia.
+3. Escolha Add file > Upload files e envie os três arquivos HTML na raiz do repositório.
+   ATENÇÃO: não envie o ZIP ao repositório no lugar dos HTML.
+4. Abra Settings > Pages. Em Build and deployment, selecione Deploy from a branch, main e /(root). Salve.
+5. Aguarde a publicação. O endereço deve ter o formato:
+   https://SEU_USUARIO.github.io/central-videos-ia/
+6. Confira se as três páginas abrem sem solicitação de login:
+   https://SEU_USUARIO.github.io/central-videos-ia/termos.html
+   https://SEU_USUARIO.github.io/central-videos-ia/privacidade.html
+7. Insira esses endereços nos campos Terms of Service URL e Privacy Policy URL do Sandbox TikTok.
+
+AUTORIZAÇÃO TIKTOK
+- No Sandbox, escolha a plataforma Desktop se for testar o Login Kit com callback local.
+- Em Login Kit > Redirect URI de Desktop, registre http://localhost:3455/callback/
+- O callback local exige que o programa de autorização esteja rodando na MESMA máquina do navegador.
+- Desktop exige PKCE e validação do parâmetro state; a URL sozinha não realiza login.
+- Não publique credenciais de API, tokens de Telegram, tokens do TikTok nem senhas no GitHub.
+
+LIMITAÇÃO
+Este site resolve apenas as páginas institucionais; não implementa Login Kit nem garante aprovação em produção.
+Os textos são modelos para revisão e adequação às práticas reais e às regras aplicáveis.
